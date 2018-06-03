@@ -1,5 +1,5 @@
 {
-  "name": "react-kitchensink-starter",
+  "name": "react-apollo-kitchensink-starter",
   "version": "0.0.1",
   "description": "React/Apollo starter with bells and whistles",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "/zautke/react-kitchensink-starter"
+    "url": "https://github.com/zautke/react-apollo-kitchensink-starter"
   },
   "keywords": [
     "react",
