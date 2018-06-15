@@ -1,31 +1,17 @@
 import React, { Component } from "react";
-// import ApolloClient, { createNetworkInterface } from "apollo-client";
-// import { ApolloProvider } from "react-apollo";
+import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 
-import logo from "./logo.svg";
-import "./App.sass";
 
-// const networkInterface = createNetworkInterface({
-//   uri: "https://api.github.com/graphql",
-//   opts: {
-//     headers: {
-//       Authorization: `bearer ${process.env.GITHUB_API_TOKEN}`
-//     }
-//   }
-// });
-
-// const client = new ApolloClient({
-//   networkInterface
-// });
+const theme = createMuiTheme();
 
 class App extends Component {
   render() {
     return (
-      // <ApolloProvider client={client}>
+      <MuiThemeProvider theme={theme}>
         <div className="app">
           <p>Yo.</p>
         </div>
-      // </ApolloProvider>
+      </MuiThemeProvider>
     );
   }
 }
