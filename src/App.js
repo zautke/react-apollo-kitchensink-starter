@@ -1,19 +1,18 @@
-import React, { Component } from "react";
-import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+import React from 'react';
+import { MuiThemeProvider } from '@material-ui/core/styles';
 
+import ComponentPanel from './components/ComponentPanel/';
 
-const theme = createMuiTheme();
+import './App.sass';
+import theme from './theme';
 
-class App extends Component {
-  render() {
-    return (
-      <MuiThemeProvider theme={theme}>
-        <div className="app">
-          <p>Yo.</p>
-        </div>
-      </MuiThemeProvider>
-    );
-  }
-}
+/* eslint-disable jsx-filename-extension */
+const App = () => (
+  <MuiThemeProvider theme={theme}>
+    <div className="app">
+      <ComponentPanel />
+    </div>
+  </MuiThemeProvider>
+);
 
 export default App;
