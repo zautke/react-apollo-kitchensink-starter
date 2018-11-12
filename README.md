@@ -13,7 +13,7 @@ A derivation off of `create-react-app`, this project includes/adds:
 * PostCSS
 * Enzyme
 * AirBnB-flavored ESLint
-* Webpack3 development (w/ HMR) and production deploy settings
+* Webpack development (w/ HMR) and production deploy settings
 * Dotenv inclusion in webpack builds
 
 I am working hard on finding the time to bump the dragging versions (React, Apollo and Webpack specifically), so stay tuned!
