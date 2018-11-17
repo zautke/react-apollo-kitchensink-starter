@@ -22,7 +22,7 @@ class App extends Component {
   render() {
     return (
       // <ApolloProvider client={client}>
-        <div className="app">
+        <div id="app">
           <p>Yo.</p>
         </div>
       // </ApolloProvider>
